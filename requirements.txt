@@ -1,0 +1,27 @@
+# Core ML Frameworks
+torch>=2.4.0
+torchvision
+torchaudio
+
+# Hugging Face Ecosystem
+transformers>=4.45.0
+accelerate>=0.34.0
+datasets
+peft
+trl>=0.11.0  # Crucial for GRPO implementation
+bitsandbytes  # For 4-bit/8-bit quantization
+
+# Speed Optimization (Optional but recommended for Blackwell/L40S)
+unsloth
+vllm>=0.6.0
+
+# Data & Visualization
+pandas
+matplotlib
+numpy
+seaborn
+
+# Utilities
+tqdm
+tensorboard
+scipy
